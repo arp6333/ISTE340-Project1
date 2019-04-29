@@ -1,0 +1,133 @@
+/* Ellie Parobek 340 2181 */
+
+/* Reset button styling */
+#resetButton{
+    background-color: #d1d1d1;
+    color: black;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: -100px;
+    border: 2px solid black;
+    margin: 2px;
+    font-family: Verdana;
+    
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#resetButton:hover {
+    background-color: #a5a5a5;
+    color: black;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Link styling (only used in footer) */
+a{
+    color: #595959;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+a:active{
+    color: #8c8c8c;
+}
+
+a:hover{
+    color: #8c8c8c;
+}
+
+#divv{
+    padding-top: 30px;   
+    display: inline-block;
+    width: 100%;
+}
+
+p{
+    font-family: Verdana;
+    font-size: 20;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* Start the movie picker button styling */
+#loadButton{
+    background-color: #d1d1d1;
+    border: none;
+    color: black;
+    padding: 60px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    display: inline-block;
+    
+    margin-top: 10px;
+    font-size: 30px;
+    border: 2px solid black;
+    font-family: Verdana;
+    
+    -webkit-transition-duration: 0.4s;
+}
+
+#loadButton:hover {
+    background-color: #a5a5a5;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Basic body styles */
+body{
+    font-family: Verdana;
+    font-size: 14px;
+    background-color: #eceff9;
+    text-align: center;
+}
+
+#dropdown{
+    text-align: center;
+    border: 2px solid #131e3a;
+}
+
+#main{
+    padding-left: 100px;
+    padding-top: 50px;
+    width: auto;
+    display: inline-block;
+}
+
+#images{
+    animation: slide-up 0.4s ease;
+}
+
+img{
+    z-index: 10;
+    max-height: 400px;
+    width: auto;
+    padding: 10px;
+    animation: slide-up 0.4s ease;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
